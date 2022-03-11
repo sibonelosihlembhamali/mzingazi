@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.section-hero {
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.heading-primary {
+  font-weight: 800;
+  color: #c92a2a;
+  letter-spacing: -0.5px;
+  font-size: 5.2rem;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  border-radius: 11px;
+  background-image: linear-gradient(to right bottom, #999, #999);
+  overflow: hidden;
+}
+
+.cta-text-box {
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  color: #fff;
+}
+
+.cta-text {
+  font-size: 3rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+  color: #000;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+
+.cta-form label {
+  display: block;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+  color: #000;
+}
+
+.cta-form input,
+.cta-form textarea {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: #555;
+  border: none;
+  background-color: #fdf2e9;
+  border-radius: 0.9rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cta-form input::placeholder {
+  color: #aaa;
+}
+
+.cta *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(238, 82, 65, 0.5);
+}
+
+.btn--form {
+  background-color: #f4d4d4;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+  border: none;
+  cursor: pointer;
+}
